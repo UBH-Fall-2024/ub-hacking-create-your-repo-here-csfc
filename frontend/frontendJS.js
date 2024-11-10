@@ -17,7 +17,7 @@ function showScreen(screenId) {
 fetch(`/fighters/${fighterName}`)
     .then(response => response.json())
     .then(data => {
-    console.log(data); // Process the fighter's data (e.g., display it on the page)
+    console.log(data);
     })
     .catch(error => console.error('Error fetching fighter data:', error));
 
