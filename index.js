@@ -41,6 +41,6 @@ app.get('/fighter/:name', (req,res) => {
         }
     });
 });
-console.log("work please");
+console.log("w");
 
 
