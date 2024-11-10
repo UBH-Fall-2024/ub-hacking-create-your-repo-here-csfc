@@ -32,5 +32,4 @@ var btn = document.getElementById("Rate-this-Fighter");
         
 };
 ratingRequest.send();
-
 })

@@ -199,7 +199,7 @@ nav button[onclick="showScreen('Divisions')"]{
 
 nav button[onclick="showScreen('fights')"]{
     background-color: transparent;
-    color: red ;
+    color: red;
 }
 
 nav button[onclick="showScreen('UFC-description')"]{
