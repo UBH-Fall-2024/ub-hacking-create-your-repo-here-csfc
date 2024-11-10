@@ -3,10 +3,8 @@ function showScreen(screenId) {
     document.querySelectorAll('.screen, #front-page').forEach(screen => {
         screen.style.display = 'none';
     });
-
     //Show the selected screen
     document.getElementById(screenId).style.display = 'block';
-
     //show or hide images based on the screenId
     if (screenId === 'front-page') {
         document.querySelector('#Charles').style.display = 'block';
