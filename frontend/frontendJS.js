@@ -14,7 +14,6 @@ function showScreen(screenId) {
         document.querySelector('#Justin').style.display = 'none';
     }
 }
-
 fetch(`/fighters/${fighterName}`)
     .then(response => response.json())
     .then(data => {
