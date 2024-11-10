@@ -9,7 +9,6 @@ body {
     color: tan;
     padding-top: 60px; 
 }
-
 .screen {
     display: none; 
     flex-direction: column;
